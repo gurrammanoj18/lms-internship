@@ -1,0 +1,302 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, p {
+    margin: 0;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 20px;
+    color: white;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+Styling the Hero Section:
+
+.hero {
+    background-image: url('hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.cta-btn {
+    background-color: #28a745;
+    padding: 15px 30px;
+    font-size: 18px;
+}
+
+.features {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 40px;
+    text-align: center;
+}
+
+.feature-item {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.testimonials {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: #f9f9f9;
+}
+
+.testimonial {
+    width: 45%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.social-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+@media (max-width: 767px) {
+    .hero h1 {
+        font-size: 30px;
+    }
+
+    .hero p {
+        font-size: 18px;
+    }
+
+    .features {
+        grid-template-columns: 1fr;
+    }
+
+    .testimonials {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+.logo{
+    height: 90px;
+    width: 110px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .features {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .testimonials {
+        flex-direction: row;
+    }
+}
+Desktop Screens (min-width: 1025px):
+
+@media (min-width: 1025px) {
+    .features {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .testimonials {
+        flex-direction: row;
+    }
+}
+.home{
+    background-image: url("https://www.360connect.com/wp-content/uploads/2020/09/iStock-942674048-1024x683.jpg");
+    height: 100vh;
+    background-size: cover;
+    text-align: center;
+}
+
+span{
+    color: red;
+    font-weight: bolder;
+}
+.heroHead{
+    font-weight: bold;
+}
+.footer{
+    background-color: white;
+    border-radius: 40px;
+    height: 60px;
+    width: 60px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    height: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.input-box{
+    height: 40px;
+
+}
+.input-label{
+    padding: 10px;
+}
+.sub-button{
+    padding: 10px;
+    height: 40px;
+    width: 150px;
+    margin-top: 10px;
+}
+.container-f{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin: 10px;
+
+}
+.feature-container{
+    height: 40px;
+    width: 40px;
+    border-radius: 30px;
+    display: flex;
+    background-color: white;
+    font-size: 25px;
+    padding-left: 20px;
+    padding-top: 10px;
+    margin: 10px;
+    flex-direction: row;
+    align-items: center;
+}
+.features{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+.main-header{
+    background-image: url("https://images.squarespace-cdn.com/content/v1/583ca2f2d482e9bbbef7dad9/1485838701670-AHLYTP3W3BJ6ZR1GE6QE/iStock-5267291911900.jpg?format=1500w");
+    height: 10vh;
+    background-size: cover;
+}
+.fonta{
+    color: black;
+    font-weight: 700;
+}
+.testimonials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-left: 200px;
+    
+}
+.test-container{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 20px;
+    width: 700px;
+
+}
+.review-img{
+    height: 300px;
+    width: 600px;
+}
+.footercontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+.review-cont{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+}
+.join-cont{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 200px;
+}
+.join{
+    width: 600px;
+}
+.featured-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.feature-item{
+    width: 350px;
+}
+.f-head{
+    color: rgb(1, 1, 67);
+    font-weight: bold;
+    font-size: 45px;
+}
+.f-list{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
