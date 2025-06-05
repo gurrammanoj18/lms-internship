@@ -291,7 +291,7 @@ form{
     }
 
     .testimonials {
-        flex-direction: row;
+        flex-direction: column;
     }
 }
 
@@ -302,7 +302,7 @@ form{
     }
 
     .testimonials {
-        flex-direction: row;
+        flex-direction: column;
     }
 }
 }
