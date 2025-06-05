@@ -39,7 +39,6 @@ nav ul li a {
 }
 
 
-Styling the Hero Section:
 
 .hero {
     background-image: url('hero-image.jpg');
@@ -110,51 +109,13 @@ footer {
     color: white;
     text-decoration: none;
     margin: 0 10px;
-}
 
-@media (max-width: 767px) {
-    .hero h1 {
-        font-size: 30px;
-    }
-
-    .hero p {
-        font-size: 18px;
-    }
-
-    .features {
-        grid-template-columns: 1fr;
-    }
-
-    .testimonials {
-        flex-direction: column;
-        align-items: center;
-    }
 }
 .logo{
     height: 90px;
     width: 110px;
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
-    .features {
-        grid-template-columns: 1fr 1fr;
-    }
-
-    .testimonials {
-        flex-direction: row;
-    }
-}
-Desktop Screens (min-width: 1025px):
-
-@media (min-width: 1025px) {
-    .features {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-
-    .testimonials {
-        flex-direction: row;
-    }
-}
 .home{
     background-image: url("https://www.360connect.com/wp-content/uploads/2020/09/iStock-942674048-1024x683.jpg");
     height: 100vh;
@@ -299,4 +260,44 @@ form{
     display: flex;
     flex-direction: column;
     text-align: start;
+}
+
+@media (max-width: 767px) {
+    .hero h1 {
+        font-size: 30px;
+    }
+
+    .hero p {
+        font-size: 18px;
+    }
+
+    .features {
+        grid-template-columns: 1fr;
+    }
+
+    .testimonials {
+        flex-direction: column;
+        align-items: center;
+    }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .features {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .testimonials {
+        flex-direction: row;
+    }
+}
+
+
+@media (min-width: 1025px) {
+    .features {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .testimonials {
+        flex-direction: row;
+    }
+}
 }
