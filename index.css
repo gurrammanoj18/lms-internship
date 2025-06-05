@@ -186,7 +186,12 @@ form{
     align-items: center;
 }
 .features{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 40px;
+    text-align:  center;
+
     flex-direction: column;
     align-items: center;
     margin: 10px;
